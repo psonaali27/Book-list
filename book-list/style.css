@@ -1,0 +1,29 @@
+:root {
+    @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+    font-family: "Roboto", sans-serif;
+  }
+  body {
+    background-color: grey;
+  }
+  .container {
+    background-color: white;
+    display: flex;
+    align-items: flex-start;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 30px;
+    border: 2px solid white;
+    word-break: break-word;
+    box-shadow: -1px -1px 16px 1px rgba(225, 176, 176, 0.75);
+  }
+  .container:hover {
+    background-image: url("https://images.unsplash.com/photo-1589998059171-988d887df646?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8OXx8fGVufDB8fHx8&w=1000&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    box-shadow: -1px -1px 16px 1px white;
+    border: 2px solid rgba(225, 176, 176, 0.75);
+    transform: scale(1.05);
+    transition: all 0.1s;
+  }
+  
